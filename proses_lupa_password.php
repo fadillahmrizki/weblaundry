@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt_update->bind_param("sss", $token, $expires, $email);
         $stmt_update->execute();
 
-        $reset_link = "http://localhost/uas_mabd/reset_password.php?token=" . $token;
+        $reset_link = "http://localhost/web_sdri/uas_mabd/reset_password.php?token=" . $token;
 
         echo "<h3>Link Reset Dibuat (Simulasi Email)</h3>";
         echo "<p>Silakan klik link di bawah ini untuk melanjutkan:</p>";

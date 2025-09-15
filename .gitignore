@@ -1,1 +1,15 @@
-node_modules
+# File koneksi database (SANGAT PENTING!)
+koneksi.php
+
+# Folder package manager Node.js (jika menggunakan npm/yarn)
+/node_modules/
+
+# File konfigurasi sensitif lainnya
+config.php
+.env
+
+# Folder upload pengguna
+/uploads/
+
+# File log
+*.log

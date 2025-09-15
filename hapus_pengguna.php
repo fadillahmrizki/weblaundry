@@ -28,7 +28,7 @@ $stmt->bind_param("i", $user_id_to_delete);
 
 if ($stmt->execute()) {
     // Jika berhasil, kembali ke halaman kelola pengguna dengan pesan sukses
-    header("location: kelola_pengguna.php?status=hapussukses");
+    header("location: pengguna.php?status=hapussukses");
 } else {
     // Jika gagal
     die("Gagal menghapus pengguna.");

@@ -105,7 +105,7 @@ $result = $koneksi->query($sql);
                                     <thead>
                                         <tr>
                                             <th>Nama Layanan</th>
-                                            <th>Harga per Kg</th>
+                                            <th>Harga per Kg/Pcs</th>
                                             <th>Estimasi</th>
                                             <th>Aksi</th>
                                         </tr>
@@ -152,7 +152,7 @@ $result = $koneksi->query($sql);
                             <input type="text" name="nama_layanan" class="form-control" required>
                         </div>
                         <div class="form-group">
-                            <label>Harga per Kg</label>
+                            <label>Harga per Kg/Pcs</label>
                             <input type="number" name="harga_per_kg" class="form-control" required>
                         </div>
                         <div class="form-group">
